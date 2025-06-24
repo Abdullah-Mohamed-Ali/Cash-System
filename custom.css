@@ -1,0 +1,522 @@
+*{
+    /* background: #3a2fd8; */
+    font-family: "Hacen Tunisia Lt";
+    margin: 0;
+    padding: 0;
+}
+
+.home-page #contain img {
+    width: 1200px;
+    height: 600px;
+    
+}
+.print-preview {
+    max-height: 250px;
+}
+.receipt {
+    
+    /* justify-content: center; */
+    justify-items: center;
+    margin-top: 100px;
+}
+.receipt .logo {
+    width: 50px;
+    height: auto;
+    border-radius:50%;   
+    
+}
+.receipt table {
+    margin: 20px;
+    font-size: 12px;
+    width: 450px;
+    
+}
+/* .receipt table .col2 {
+    width: 70%;
+} */
+
+.home-page #contain {
+    
+    background: url("../img/pizza.png") center no-repeat ;
+    background: red;
+    width: 350px;
+    height:500px;
+}
+.receipt table td{
+    border: 1px solid #000;
+    column-gap: 1px;
+    padding: 2px 5px;
+    text-align: center;
+}
+.receipt h6 {
+    margin-top: 5px;
+}
+
+.print-area {
+    /* display: block; */
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: space-between;
+    
+}
+.print-area .print {
+    margin-left: 20px;
+    background: #7146e9;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.cash-flow {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* background:yellow; */
+    column-gap: 30px;
+    margin-bottom: 10px;
+    
+}
+.report input {
+    width: 100px;
+    height: 15px;
+}
+.cash-note input{
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #ffff;
+}
+.cash-flow .report td {
+    font-size: 12px;
+    padding: 5px;
+    /* background: linear-gradient(#c850c0,#4158d0); */
+    background: #4158d0;
+    color: #fff;
+    text-align: center;
+}
+.report{
+    margin-left: 50px;
+    /* background: blue; */
+}
+.cash-flow .report .input{
+    color: #4158d0;
+    /* background: #fff; */
+    /* border-radius: 5px; */
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+.visa, .delivery{
+    justify-content: center;
+}
+
+.show .visa input , .show .delivery input {
+    width: 100px;
+    height: 20px;
+}
+.cash-note{    
+    margin-right: 50px;    
+}
+.cash-note table, .cash-report table{
+    width: 400px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1px;
+    /* border-collapse: collapse; */
+}
+.cash-note .input-number{
+    width: 45px;
+    height: 20px;
+    background: #fff;
+    border-radius: 5px;
+    color: #4158d0;
+    border: none;
+    /* padding: 2px; */
+    /* border-bottom:#7849e4; */
+}
+.cash-note td {
+    background: #4158d0;
+    color: #fff;
+    padding: 2px;
+    /* border: #fff; */
+}
+
+
+.cash , .expenses , .delivery , .visa {
+    border: 2px solid #7849e4;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+sup {
+    background: #0419d6;
+    border-radius: 50%;
+    color: #fff;
+    font-family:"Century Gothic" ;
+    font-size: 12px;
+    width: 200px;
+    padding: 5px;
+}
+table thead {
+    background: #7849e4;
+    font-size: 10px;
+}
+.nav #header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between ;
+    /* margin: auto; */
+    background: hsl(253, 58%, 62%);
+    width: 100%;
+    /* margin-top: 0; */
+
+    
+}
+.form form input {
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #7849e4;
+    /* border-color: #7849e4; */
+    background: #4158d0;
+}
+.nav #header h1 {
+    font-family: "Century Gothic";
+    padding: 10px;
+    color: #fff;
+}
+.nav #header  h5 {
+    margin-top: 10px;
+    color: #fff;
+}
+.nav #header #logo {
+    width: 50px;
+    border-radius: 50%;
+    margin: 50px, 50px;
+    font-size: 80px;
+    padding: 10px
+}
+.nav #header .welcome {
+    display: flex;
+    justify-content: space-between;
+    justify-items: stretch;
+    margin: 10px, 100px;
+    padding: 10px;
+}
+.nav #header .welcome h5 {
+    display: inline;
+    padding: 0, 50px;
+    margin-left: 20px;
+    font-family:"Century Gothic";
+    font-weight: 100;
+}
+.form {
+    
+    min-height: 100px;
+    align-items: center;
+}
+.form form{
+    align-items: center;
+}
+.form form input {
+    margin-top: 65px;
+    border: #7849e4;
+    padding: 5px;
+    margin-left: 20px;
+    font-family: "Century Gothic";
+    font-size: 12px;
+    color: #fff;
+    border-radius: 10px;
+    
+}
+.form form .btn-sub  {
+    background:  #7849e4;
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 30px;
+    color: #fff;
+    /* border: 5px solid red; */
+    border: none;
+    height: 30px;
+    transition: all .3s ease;
+}
+
+#add {
+    color: #fff;
+}
+.form form .btn-sub:hover{
+    background: #fff;
+    box-shadow: 0 0 10px  #7849e4;
+    cursor: pointer;
+}
+.expenses table{
+    margin-top: -50px;
+    width: 700px;
+
+    
+}
+.expenses table th {
+    background: #4158d0;
+    
+}
+.expenses table tr{
+    background: #9b52ee;
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+}
+
+.expenses table tr:nth-child(even){
+    background: #dac2f7;
+    color: #000;
+
+}
+.btn-edit, .expenses .btn-edit{
+    background: #fff;
+    width: 20px;
+}
+.expenses input #value {
+    width: 80px;
+}
+.expenses #hidden {
+    width: 20px;
+}
+.cash_show .cash table thead {
+    font-size: 12px;
+    background: #7849e4;
+    border-radius: 25px;
+    font-weight: 50;
+}
+.cash_show .cash table tbody{
+    background: #7849e4;
+    width: 10px;
+}
+.cash_show .cash table input {
+    background: #7849e4;
+    border: none;
+    border-radius: 10px;
+    columns: #fff;
+}
+.delivery {
+    column-gap: 10px;
+    width: 40%;
+    justify-content: center;
+}
+.deliveryData {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+}
+table {
+    margin-left: 10px;
+}
+.visa{
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+table tbody td button a {
+    text-decoration: none;
+}
+.delivery table tr, .visa table tr {
+    background: #9b52ee;
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+}
+.delivery table th, .visa table th {
+    background: #4158d0;
+
+}
+
+
+.delivery table tr:nth-child(even),
+.visa table tr:nth-child(even){
+    background: #bfb9d3;
+}
+
+/* .expenses table tr:hover{
+    transform: scale(1.4);
+    transition: all 0.3s ease;
+} */
+
+
+.cash_show form {
+    margin-top: -150px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    
+}
+table td:hover {
+    transform: scale(1.2);
+}
+button:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+form #add{
+    background: #032279;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+/* form #add:hover{
+    box-shadow: 0 0 10px #032279;
+    cursor: pointer;
+    scale: 1.1;
+} */
+
+.cash  {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    
+}
+
+.visa table, .delivery table{
+    width: 350px;
+}
+.cash input {
+    width: 50px;
+}
+
+.show  {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    
+}
+
+.show h5 {
+    font-size: 15px;
+    font-weight: 100;
+}
+.show input {
+    width: 70px;
+    height: 10px;
+    margin-left: 5px;
+}
+
+.cash_show {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    
+}
+.expenses form input {
+    margin-left: 2px;
+}
+
+.expenses {
+    margin-left: 40px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    /* align-content: space-around;  */
+    justify-content: center;
+    max-width:900px;
+    
+    
+}
+.expenses #category {
+    width: 150px;
+    margin-right: 20px;
+}
+.expenses #description {
+
+    width: 300px;
+}
+.expenses table {
+    margin-top: 10px;
+} 
+.expenses h5 {
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.expenses table tbody{
+    background: #fff;
+    border-bottom:#7849e4 ;
+}
+
+#del  {
+    background: red;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: none; 
+    color: #fff;   
+
+}
+#del i,  #print i,#up i   {
+    color: #fff;
+}
+
+#print{
+    background: #7849e4;
+    border-radius: 50%;
+    width: 30px;
+    border: none;
+    height: 30px;
+}
+#up {
+    background: #1809e4;
+    border-radius: 50%;
+    width: 30px;
+    border: none;
+    height: 30px;
+}
+.foot  {
+    background: rebeccapurple;
+    /* justify-content: space-between; */
+    /* position: fixed; */
+    display: inline;
+    margin: auto;
+    /* max-width: 1200px; */
+}
+/* p{
+    font-family: "Century Gothic";
+    font-size: 15px; */
+/* } */
+.footer small {
+    color: #fff;
+    letter-spacing: 1px;
+}
+.footer {
+    align-items: center;
+    margin: auto;
+    background: #7849e4;
+    /* max-width: 400px; */
+    height: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.footer h1  {
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+@media print {
+    .print-area {
+        display: none;
+        overflow: hidden;
+    }
+}
